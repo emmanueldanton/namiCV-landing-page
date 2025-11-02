@@ -82,7 +82,7 @@ const subscribeToBrevo = async (email) => {
   console.log('🔵 Envoi de:', email);
   
   try {
-    const response = await fetch('https://nami-cv-landing-page.vercel.app//api/subscribe', {
+    const response = await fetch('/api/subscribe', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
