@@ -10,10 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@getbrevo/brevo": "^3.0.1",
-    "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
@@ -30,9 +26,6 @@
     "globals": "^16.4.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.16",
-    "vite": "npm:rolldown-vite@^7.1.14"
-  },
-  "overrides": {
-    "vite": "npm:rolldown-vite@7.1.14"
+    "vite": "^5.0.4" 
   }
 }
