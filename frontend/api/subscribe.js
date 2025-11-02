@@ -4,12 +4,14 @@ import * as brevo from '@getbrevo/brevo';
 const contactsApi = new brevo.ContactsApi();
 contactsApi.setApiKey(
   brevo.ContactsApiApiKeys.apiKey, 
+  // eslint-disable-next-line no-undef
   process.env.BREVO_API_KEY
 );
 
 const transactionalEmailsApi = new brevo.TransactionalEmailsApi();
 transactionalEmailsApi.setApiKey(
   brevo.TransactionalEmailsApiApiKeys.apiKey,
+  // eslint-disable-next-line no-undef
   process.env.BREVO_API_KEY
 );
 
@@ -84,7 +86,7 @@ export default async function handler(req, res) {
     
     res.status(500).json({ 
       ok: false, 
-      data: { error: 'Erreur lors de l\'inscription.' } 
-    });
-  }
+      data: { error: 'Erreur lors de l\'inscription.' }
+    });
+  }
 }
