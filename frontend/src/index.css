@@ -222,8 +222,9 @@ body {
   color: #0a0a0a;
   margin-bottom: 24px;
   letter-spacing: -0.02em;
-  display: block;
+  display: flex; 
   flex-direction: column;
+  gap: 8px; 
   text-align: center;
 }
 
@@ -237,7 +238,7 @@ body {
 }
 
 .subtitle {
-  font-family: 'Agrandir', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #2a2a2a;
@@ -266,8 +267,8 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-family: 'Agrandir', sans-serif;
-  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
   font-weight: 400;
   color: #1a1a1a;
 }
@@ -418,14 +419,18 @@ body {
 @media (max-width: 768px) {
   .header {
     padding: 20px 24px;
-    flex-wrap: wrap;
-    gap: 12px;
-  }
+    flex-direction: column;
+    align-items: center; 
+    gap: 15px; 
+    width: 100%;
+    max-width: none;
+}
 
-  .header-right {
+.header-right {
+    width: 100%;
+    justify-content: center; 
     gap: 12px;
-  }
-
+}
   .language-selector {
     font-size: 12px;
     padding: 8px 28px 8px 12px;
