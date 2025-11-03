@@ -222,12 +222,9 @@ body {
   color: #0a0a0a;
   margin-bottom: 24px;
   letter-spacing: -0.02em;
-  display: flex; 
+  display: flex;
   flex-direction: column;
-  gap: 8px; 
-  text-align: center;
-  white-space: pre-wrap; /* Ensure text wraps to the next line */
-  word-break: break-word; /* Break long words if necessary */
+  gap: 8px;
 }
 
 .title-line {
@@ -242,17 +239,18 @@ body {
 .subtitle {
   font-family: 'Inter', sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 500;
   color: #2a2a2a;
   margin-bottom: 40px;
   line-height: 1.6;
+  letter-spacing: -0.02em;
 }
 
 .italic {
   font-style: italic;
   text-decoration: underline;
   text-decoration-style: wavy;
-  text-decoration-color: #22c55e;
+  text-decoration-color: #37c68e;
   text-decoration-thickness: 2px;
 }
 
@@ -270,9 +268,10 @@ body {
   align-items: center;
   gap: 10px;
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 500;
   color: #1a1a1a;
+  letter-spacing: -0.02em;
 }
 
 .checkmark {
