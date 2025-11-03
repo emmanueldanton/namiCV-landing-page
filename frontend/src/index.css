@@ -395,18 +395,6 @@ body {
   font-weight: 600;
 }
 
-.linkedin-link {
-  color: #0077b5;
-  text-decoration: underline;
-  font-weight: 500;
-  transition: color 0.2s ease;
-}
-
-.linkedin-link:hover {
-  color: #005885;
-  text-decoration: underline;
-}
-
 .avatar {
   font-size: 24px;
   display: flex;
