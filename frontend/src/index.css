@@ -222,9 +222,9 @@ body {
   color: #0a0a0a;
   margin-bottom: 24px;
   letter-spacing: -0.02em;
-  display: flex;
+  display: block;
   flex-direction: column;
-  gap: 8px;
+  text-align: center;
 }
 
 .title-line {
