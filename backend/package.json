@@ -1,0 +1,9 @@
+{
+  "name": "namicv-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "api/subscribe.js",
+  "dependencies": {
+    "@getbrevo/brevo": "^2.2.0"
+  }
+}
