@@ -207,7 +207,7 @@ body {
   padding: 8px 18px;
   border-radius: 100px;
   font-family: 'Agrandir', sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 200;
   margin-bottom: 32px;
   display: inline-block;
@@ -226,6 +226,8 @@ body {
   flex-direction: column;
   gap: 8px; 
   text-align: center;
+  white-space: pre-wrap; /* Ensure text wraps to the next line */
+  word-break: break-word; /* Break long words if necessary */
 }
 
 .title-line {
